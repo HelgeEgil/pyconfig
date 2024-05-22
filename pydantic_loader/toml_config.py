@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Union, Optional
 
 import toml
-from pydantic import BaseSettings
+from pydantic_settings import BaseSettings
 from toml.decoder import TomlDecodeError
 
 import pydantic_loader
