@@ -6,7 +6,8 @@ from json import JSONDecodeError
 from os import PathLike
 from pathlib import Path
 from typing import Optional, Union, Callable
-from pydantic import ValidationError, BaseSettings
+from pydantic import ValidationError
+from pydantic_settings import BaseSettings
 
 _LOGGER = logging.getLogger(__name__)
 
